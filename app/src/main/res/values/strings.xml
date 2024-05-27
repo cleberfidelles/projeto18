@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">projeto18</string>
+    <string name="fa_a_seu_login">Faça seu login</string>
+    <string name="digite_o_seu_email">Digite o seu email</string>
 </resources>
