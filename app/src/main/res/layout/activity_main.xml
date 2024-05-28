@@ -35,4 +35,28 @@
         android:drawablePadding="5dp"
         />
 
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:background="@drawable/background_input"
+        android:hint="@string/digite_a_sua_senha"
+        android:textSize="30sp"
+        android:textColorHint="#000"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/entrar"
+        android:backgroundTint="@drawable/background_button"
+        android:textSize="30sp"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        />
+
 </LinearLayout>

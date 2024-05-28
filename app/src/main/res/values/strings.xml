@@ -2,4 +2,6 @@
     <string name="app_name">projeto18</string>
     <string name="fa_a_seu_login">Faça seu login</string>
     <string name="digite_o_seu_email">Digite o seu email</string>
+    <string name="digite_a_sua_senha">Digite a sua senha</string>
+    <string name="entrar">Entrar</string>
 </resources>
