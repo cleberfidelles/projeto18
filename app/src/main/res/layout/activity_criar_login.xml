@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradient"
+    tools:context=".CriarLogin">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastre_se_no_nosso_app"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/createemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/digite_o_seu_email"
+        android:textSize="30sp"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:background="@drawable/background_input"
+        android:textAlignment="center"
+        android:textColorHint="@color/black"
+        />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/createpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/digite_a_sua_senha"
+        android:textSize="30sp"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:background="@drawable/background_input"
+        android:textAlignment="center"
+        android:textColorHint="@color/black"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btncadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:text="@string/cadastrar"
+        android:textSize="30sp"
+
+        />
+
+</LinearLayout>

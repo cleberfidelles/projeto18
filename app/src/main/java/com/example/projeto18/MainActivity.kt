@@ -38,16 +38,35 @@ class MainActivity : AppCompatActivity() {
                         if(it.isSuccessful){
                             telaHome()
                         }
+                    }.addOnFailureListener{
+                        Toast.makeText(this , "Erro ao fazer login" , Toast.LENGTH_SHORT).show()
                     }
 
 
             }
 
         }
+        tela.reset.setOnClickListener {
+            telaReset()
+        }
+        tela.cadastrar.setOnClickListener {
+            telaCadastrar()
+        }
     }
     private fun telaHome(){
         val telaHome = Intent(this , TelaHome::class.java)
         startActivity(telaHome)
+        finish()
+    }
+
+    private fun telaReset(){
+        val telaReset = Intent(this ,  Reset::class.java)
+        startActivity(telaReset)
+        finish()
+    }
+    private fun telaCadastrar(){
+        val telaCadastrar = Intent(this , CriarLogin::class.java)
+        startActivity(telaCadastrar)
         finish()
     }
 }

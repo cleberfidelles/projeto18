@@ -4,4 +4,11 @@
     <string name="digite_o_seu_email">Digite o seu email</string>
     <string name="digite_a_sua_senha">Digite a sua senha</string>
     <string name="entrar">Entrar</string>
+    <string name="sair">Sair</string>
+    <string name="esqueceu_a_senha">Esqueceu a senha?</string>
+    <string name="recupere_a_sua_conta">Recupere a sua conta</string>
+    <string name="resetar">Resetar</string>
+    <string name="cadastre_se_no_app">Cadastre-se no App</string>
+    <string name="cadastre_se_no_nosso_app">Cadastre-se no nosso App</string>
+    <string name="cadastrar">Cadastrar</string>
 </resources>
